@@ -10,6 +10,7 @@ PYTHON_LIB     ?= python${PYTHON_VERSION}
 PYTHONCFLAGS = $(shell pkg-config python --cflags)
 PYTHONLIBS   = $(shell pkg-config python --libs)
 
+
 ## these should come from PYTHONCFLAGS and PYTHONLIBS variables
 # IncludeDirs+=${PYTHON_INCLUDE_PREFIX}
 # DependentLibraries+=python${PYTHON_VERSION}
