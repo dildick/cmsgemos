@@ -1,5 +1,7 @@
 ## Instructions by Jared Sturdy:
 
+One will also need the xdaq, ipbus, and amc13 repo files. If they aren't easily available from the appropriate sources, I can put compatible versions somewhere.
+
 So preliminary instructions are (as root, or prepend sudo):
 
 ```
